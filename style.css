@@ -1,0 +1,92 @@
+@font-face{font-family: "AR"; src: url("fonts/Anton-Regular.ttf")}
+@font-face{font-family: "Ubuntu"; src: url("fonts/Ubuntu-Regular.ttf")}
+@font-face{font-family: "Archivo-SB"; src: url("fonts/Archivo-Semibold.ttf")}
+
+* {
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+header{
+	width: 100%;
+	height: auto;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #02D433;
+	color: white;
+	font-family: Ubuntu;
+}
+#inicio h2{
+	font-family: Archivo-SB;
+}
+#inicio p {
+	font-family: Ubuntu;
+}
+#inicio img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+#inicio span{
+	color: orange;
+}
+.info-d {
+	color: #02D433;
+	font-family: Ubuntu;
+	font-size: 18px;
+}
+#inicio h1 {
+	color: orange;
+	font-family: Archivo-SB;
+	margin-top: 30px;
+}
+.parag1 {
+	width: 98%;
+	height: auto;
+}
+
+#howto h2{
+	font-family: Archivo-SB;
+	color: #02D433;
+}
+#howto p {
+	font-family: Ubuntu;
+}
+#doar {
+	height: auto;
+	width: 100%;
+	display: inline-grid;
+}
+
+#chat {
+	width: 100%;
+	height: 40px;
+	align-items: center;
+	display: inline-grid;
+}
+.comment {
+	background-color: rgb(240, 240, 240);
+	margin-top: 3px;
+	width: 350px;
+	height: 150px;
+	display: inline-grid;
+	font-family: Ubuntu;
+	padding: 5px;
+}
+.perfil {
+	width: 100%;
+	height: auto;
+	text-align: left;
+	justify-content: left;
+	font-family: Ubuntu;
+	display: flex;
+}
+.perfil img {
+	border-radius: 50%;
+}
+#end {
+	width: 100%;
+	height: 200px;
+	background-color: green;
+}
